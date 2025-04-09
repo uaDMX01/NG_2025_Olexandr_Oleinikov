@@ -113,7 +113,7 @@ async def profile_dialog(update, context):
 
     if dialog.counter ==1:
         dialog.user["age"] = text
-        await send_text(update, context, "Ким ви працюєте")
+        await send_text(update, context, "Ким ви працюєте?")
     if dialog.counter ==2:
         dialog.user["occupation"] = text
         await send_text(update, context, "Яке у вас хобі")
